@@ -39,19 +39,3 @@ DROP TABLE Alunos;
 
 DROP DATABASE Escola;
 
-
----EXERCíCIOS---
-
-CREATE DATABASE universidade;
-USE universidade;
-
-CREATE TABLE Estudantes (
-     id INT AUTO_INCREMENT PRIMARY KEY,
-     nome VARCHAR(100),
-     curso VARCHAR(50),
-     idade INT,
-     nota_final FLOAT
-);
-
-USE universidade;
-INSERT INTO Estudantes (nome, curso, )
